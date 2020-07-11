@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484521F024B9C92100107D2B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484521EF24B9C92100107D2B /* SwiftUIView.swift */; };
 		48965A7524AA4D1400261C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48965A7424AA4D1400261C13 /* AppDelegate.swift */; };
 		48965A7724AA4D1400261C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48965A7624AA4D1400261C13 /* SceneDelegate.swift */; };
 		48965A7924AA4D1400261C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48965A7824AA4D1400261C13 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		484521EF24B9C92100107D2B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		48965A7124AA4D1400261C13 /* SwiftUI_Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48965A7424AA4D1400261C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48965A7624AA4D1400261C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		484521ED24B9C85400107D2B /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				48965A7824AA4D1400261C13 /* ContentView.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		484521EE24B9C85D00107D2B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				484521EF24B9C92100107D2B /* SwiftUIView.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		48965A6824AA4D1300261C13 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +74,10 @@
 		48965A7324AA4D1400261C13 /* SwiftUI_Starter */ = {
 			isa = PBXGroup;
 			children = (
+				484521ED24B9C85400107D2B /* Text */,
+				484521EE24B9C85D00107D2B /* Image */,
 				48965A7424AA4D1400261C13 /* AppDelegate.swift */,
 				48965A7624AA4D1400261C13 /* SceneDelegate.swift */,
-				48965A7824AA4D1400261C13 /* ContentView.swift */,
 				48965A7A24AA4D1700261C13 /* Assets.xcassets */,
 				48965A7F24AA4D1700261C13 /* LaunchScreen.storyboard */,
 				48965A8224AA4D1700261C13 /* Info.plist */,
@@ -147,6 +166,7 @@
 			files = (
 				48965A7524AA4D1400261C13 /* AppDelegate.swift in Sources */,
 				48965A7724AA4D1400261C13 /* SceneDelegate.swift in Sources */,
+				484521F024B9C92100107D2B /* SwiftUIView.swift in Sources */,
 				48965A7924AA4D1400261C13 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
