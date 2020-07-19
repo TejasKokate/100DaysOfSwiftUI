@@ -14,6 +14,10 @@
 		48965A7B24AA4D1700261C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48965A7A24AA4D1700261C13 /* Assets.xcassets */; };
 		48965A7E24AA4D1700261C13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48965A7D24AA4D1700261C13 /* Preview Assets.xcassets */; };
 		48965A8124AA4D1700261C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48965A7F24AA4D1700261C13 /* LaunchScreen.storyboard */; };
+		48B07A6524C430710051259D /* CellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B07A6424C430710051259D /* CellRow.swift */; };
+		48B07A6724C4351A0051259D /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B07A6624C4351A0051259D /* ListModel.swift */; };
+		48B07A6924C4360B0051259D /* MyFirstListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B07A6824C4360B0051259D /* MyFirstListView.swift */; };
+		48B07A6D24C43D5E0051259D /* ScrollViewChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B07A6C24C43D5E0051259D /* ScrollViewChallenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		48965A7D24AA4D1700261C13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48965A8024AA4D1700261C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48965A8224AA4D1700261C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B07A6424C430710051259D /* CellRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRow.swift; sourceTree = "<group>"; };
+		48B07A6624C4351A0051259D /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		48B07A6824C4360B0051259D /* MyFirstListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstListView.swift; sourceTree = "<group>"; };
+		48B07A6C24C43D5E0051259D /* ScrollViewChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +82,10 @@
 		48965A7324AA4D1400261C13 /* SwiftUI_Starter */ = {
 			isa = PBXGroup;
 			children = (
+				48B07A6B24C43D4D0051259D /* ScrollView */,
 				484521ED24B9C85400107D2B /* Text */,
 				484521EE24B9C85D00107D2B /* Image */,
+				48B07A6A24C43D0A0051259D /* List */,
 				48965A7424AA4D1400261C13 /* AppDelegate.swift */,
 				48965A7624AA4D1400261C13 /* SceneDelegate.swift */,
 				48965A7A24AA4D1700261C13 /* Assets.xcassets */,
@@ -92,6 +102,24 @@
 				48965A7D24AA4D1700261C13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48B07A6A24C43D0A0051259D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				48B07A6424C430710051259D /* CellRow.swift */,
+				48B07A6624C4351A0051259D /* ListModel.swift */,
+				48B07A6824C4360B0051259D /* MyFirstListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		48B07A6B24C43D4D0051259D /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				48B07A6C24C43D5E0051259D /* ScrollViewChallenge.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B07A6924C4360B0051259D /* MyFirstListView.swift in Sources */,
+				48B07A6D24C43D5E0051259D /* ScrollViewChallenge.swift in Sources */,
 				48965A7524AA4D1400261C13 /* AppDelegate.swift in Sources */,
 				48965A7724AA4D1400261C13 /* SceneDelegate.swift in Sources */,
 				484521F024B9C92100107D2B /* SwiftUIView.swift in Sources */,
+				48B07A6724C4351A0051259D /* ListModel.swift in Sources */,
+				48B07A6524C430710051259D /* CellRow.swift in Sources */,
 				48965A7924AA4D1400261C13 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
